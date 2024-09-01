@@ -1,0 +1,9 @@
+
+ctrl + enter = new line
+
+ctrl + p = find file
+
+ctrl + p + @ = find tag/class/etc
+
+ctrl + shift + L = select all matches
+
