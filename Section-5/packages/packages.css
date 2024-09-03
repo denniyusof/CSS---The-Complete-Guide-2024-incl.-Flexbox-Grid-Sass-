@@ -1,0 +1,31 @@
+main > section {
+  width: 720px;
+  background-color: #d5ffdc;
+  border: 5px solid #0e4f1f;
+  padding: 8px 16px;
+  margin: 8px 0;
+  margin-inline: auto;
+}
+
+main > section:hover {
+  border-color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+main section a h1 {
+  color: black;
+}
+
+main section a h2 {
+  color: #424242;
+}
+
+main section a p {
+  border: 2px solid #0e4f1f;
+  padding: 8px 16px;
+  background-color: white;
+  color: #0e4f1f;
+}
