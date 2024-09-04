@@ -14,6 +14,12 @@ body {
   padding: 10px;
 }
 
+.plan__list {
+  width: 80%;
+  margin-inline: auto;
+  text-align: center;
+}
+
 .plan {
   background-color: #d5ffdc;
   text-align: center;
