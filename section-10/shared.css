@@ -60,16 +60,9 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 1.5rem;
-
   /* width: 20px; */
   display: inline-block;
   vertical-align: middle;
-}
-
-@media (min-width: 40rem) {
-  .main-header__brand {
-    height: 1.8rem;
-  }
 }
 
 .main-header__brand img {
@@ -121,6 +114,19 @@ body {
   color: #ff1b68;
   background: white;
   border: none;
+}
+
+@media (min-width: 40rem) {
+  .toggle-button {
+    display: none;
+  }
+
+  .main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 44px);
+    vertical-align: middle;
+  }
 }
 
 .main-footer {
@@ -201,21 +207,10 @@ body {
 }
 
 .open {
-  display: block !important;
+    display: block !important;
 }
 
 @media (min-width: 40rem) {
-  .main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 44px);
-    vertical-align: middle;
-  }
-
-  .toggle-button {
-    display: none;
-  }
-
   .main-footer__link {
     display: inline-block;
     margin: 0 1rem;
